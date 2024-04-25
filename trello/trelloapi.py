@@ -4,7 +4,7 @@ from requests import HTTPError
 
 class trello:
 
-    def __init__(self, key, token, board):
+    def __init__(self, key, token):
         self.key = key
         self.token = token
 
